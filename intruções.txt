@@ -1,0 +1,26 @@
+O gerador de desculpas
+Disneyland para procrastinadores e pessoas preguiçosas.
+Esse projeto é ideal para evitar alguém irritante, não é preciso mais do que 20 linhas de código e pode salvá-lo pelo resto da vida!
+O objetivo
+Queríamos um projeto que usasse muito pouco Javascript, mas ainda com uma aplicação muito divertida, o gerador de desculpas usa 20 linhas de código, é super simples de entender e é o primeiro projeto perfeito para qualquer desenvolvedor iniciante.
+Instruções
+Por favor, crie um pequeno site que gere uma desculpa cada vez que um botão é pressionado, ele deve se parecer com o seguinte: Confira a animação demo.
+Discuta com seus colegas sobre a estratégia primeiro
+Como podemos gerar uma desculpa? Como as frases são construídas?
+Explicação do gerador de desculpas
+A idéia é gerar cada parte da frase aleatoriamente para obter grandes desculpas!
+Sugestão
+Crie um index.html com uma desculpa codificada, sem js, apenas uma desculpa em HTML puro puro.
+A desculpa deve estar dentro de uma tag HTML com um ID asseded, por exemplo:
+  <p id = "desculpa"> Meu cachorro come minha comida</p>
+
+  Usando javascript, crie uma função que gere e retorne uma desculpa aleatória com a seguinte estrutura:
+let quem = [‘o cachorro’, ‘meu granma’, ‘sua tartaruga’, ‘meu pássaro’];
+let oQue = [‘coma’, ‘irritado’, ‘esmagado’, ‘quebrado’];
+let quando = [‘antes da aula’, ‘bem na hora’, ‘quando eu terminei’, ‘durante o meu almoço’, ‘enquanto eu estava orando’];
+Para criar uma desculpa consistente, é necessário concatenar um item de cada matriz na ordem correta.
+Chame essa função onLoad e defina a desculpa no innerHTML do elemento HTML #excuse.
+Tecnologias
+HTML, CSS3, Sass, Javascript, Webpack.
+Fundamentos
+Este exercício aborda os seguintes fundamentos: 1. Usando arquivos Javascript externos em seu projeto. 2. Como trabalhar com matrizes. 3. Gerando números aleatórios. 4. Concatenando cadeias. 5. Usando funções (pelo menos um pouco). 6. Trabalhando com eventos (pelo menos um pouco).
